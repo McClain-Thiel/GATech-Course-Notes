@@ -13,6 +13,7 @@ If you'd like to develop and/or build the GATech Course Notes book, you should:
 3. (Optional) Edit the books source files located in the `gatech_course_notes/` directory
 4. Run `jupyter-book clean gatech_course_notes/` to remove any existing builds
 5. Run `jupyter-book build gatech_course_notes/`
+6. Run `ghp-import -n -p -f gatech_course_notes/_build/html` to publish the book to GitHub Pages
 
 A fully-rendered HTML version of the book will be built in `gatech_course_notes/_build/html/`.
 
